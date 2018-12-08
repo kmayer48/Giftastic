@@ -1,0 +1,84 @@
+.heading {
+    width: 95%;
+    background-image: url("../images/header.gif");
+    color: pink;
+    font-display: bold;
+}
+
+.jumbotron {
+    width: 80%;
+    background-image: url("../images/heading.jpg");
+    background-size: cover;
+    color: rgb(0,204,0);
+    font-display: bold;
+}
+
+.button{
+    color: rgb(147,112,219);
+    border: solid 5px white;
+    border-radius: 12px;
+    box-shadow: 2px 2px 5px grey;
+    background-image: url("../images/button.jpg");
+    padding: 15px;
+    margin: 5px;
+    font-family: Shrikhand, cursive;
+}
+
+.button:hover{
+    color: white;
+    background-image: linear-gradient(90deg, #00C0FF 0%, #FFCF00 49%, #FC4F4F 80%, #00C0FF 100%);
+    animation:slidebg 2s linear infinite;
+ }
+
+ @keyframes slidebg {
+    to {
+      background-position:20vw;
+    }
+  }
+  
+  .follow{
+    margin-top: 40px;
+  }
+
+  .form-control{
+    background-image: url("../images/search.png");
+      border: solid 2px white;
+      color: white;
+      font-family: Shrikhand, cursive;
+  }  
+
+  #submit {
+    background-color: black;
+    border: solid 2px white;
+    color: white;
+  }
+
+h1,
+h3,
+h4,
+h5,
+p {
+    font-family: 'Chicle', cursive;
+}
+
+body {
+    background-image: url("../images/background.jpg");
+}
+
+.gif{
+    display: inline-block;
+    border: solid 7px black;
+    background-color: black;
+    color: yellow;
+}
+
+.card-title {
+    margin-bottom: 0;
+}
+
+@media only screen and (max-width: 600px) {
+    form{
+        margin-right: 0;
+    }
+
+}
